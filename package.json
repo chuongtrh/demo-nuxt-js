@@ -1,0 +1,23 @@
+{
+  "name": "demo-nuxt-js",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
+    "lint": "npm run lint:style"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.0",
+    "element-ui": "^2.13.2",
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/stylelint-module": "^4.0.0",
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0"
+  }
+}
